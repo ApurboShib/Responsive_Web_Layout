@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+
+        }
+        
+        /* nav er vitore jotogula angchor tag ache oigula niye kaj korbo */
+        nav a{
+            text-decoration: none;
+            color: black;
+            /* justify-content: center;
+            border: 2px solid purple; */
+        }
+        .login-form-container {
+            display: flex;
+            justify-content: center;
+            /* border: 1px solid salmon; */
+            height: 90vh;
+        }
+        .login-form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* border: 2px solid peru; */
+            width: 40%;
+        }
+       .login-form input {
+        margin-top: 20px;
+        width: 100%;
+       }
+    </style>
+</head>
+<body>
+    <nav>
+       <div>
+        <a  href="">Home</a>
+        <a href="">Profile</a>
+        <a href="">Blog</a>
+        <a href="">Login</a>
+       </div>
+        <a href="">About</a>
+    </nav>
+    <section class="login-form-container">
+        <form class="login-form">
+            <h3>Please Login</h3>
+            <input type="email" placeholder="Your email" name="" id="" required>
+          
+          <input type="password" placeholder="Password" name="" id="" required>
+         
+          <input type="submit" value="Login">
+    
+        </form>
+    </section>
+</body>
+</html>
