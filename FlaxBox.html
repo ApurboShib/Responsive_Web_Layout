@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box layouts.</title>
+    <style>
+        .container {
+            border: 2px solid salmon;
+            display: flex;
+             /* justify-content: center;  */
+            /* item amader center eh thakbe  */
+            /* justify-content: flex-end;
+            end dik theke box 3 ta thakbe */
+            /* justify-content: space-between;
+            3 tar majhkhane soman space dibe. */
+            justify-content: space-evenly;
+            /* 3 tar moddhe soman space thakbe */
+            /* justify-content -> horizental borabor kaj kore */
+            height: 200px;
+            /* align-items: center; */
+            /* vartical borabor jodi dekhte cai ba kno change korte cai tahole seta korbo 
+            aling-items eh */
+
+            /* normaly flex thake row borabor but eitake oh amra change korte pari, 
+            caile tar direction amra change korte parbo 
+             */
+            flex-direction: row;
+
+
+        }
+        .box {
+            border: 2px dashed tomato;
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h2>FlexBox Layout</h2>
+    <div class="container">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+</body>
+</html>
